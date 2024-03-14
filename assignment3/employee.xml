@@ -3,67 +3,67 @@
 <!DOCTYPE company SYSTEM "employee.dtd">
 <company>
 	<employee>
-		<username>Akash123</username>
+		<username>Aarav Kumar</username>
 		<password>akash123</password>
-		<firstname>Akash</firstname>
-		<lastname>Mete</lastname>
+		<firstname>Aarav</firstname>
+		<lastname>Kumar</lastname>
 		<gender>Male</gender>
-		<email>akashmete129@gmail.com</email>
+		<email>aarav.kumar@example.com</email>
 		<position>Software Developer</position>
 		<salary>9.5lpa</salary>
-		<contact>+91 7051794388</contact>
+		<contact>+91 7854547485</contact>
 	</employee>
 	<employee>
-		<username>AlexWest</username>
-		<password>alex123</password>
-		<firstname>Alex</firstname>
-		<lastname>West</lastname>
+		<username>Riya Patel</username>
+		<password>Riya123</password>
+		<firstname>Riya</firstname>
+		<lastname>Patel</lastname>
 		<gender>Female</gender>
-		<email>alex123@gmail.com</email>
+		<email> riya.patel@example.com</email>
 		<position>Software Developer</position>
 		<salary>8.5lpa</salary>
 		<contact>+91 9335784511</contact>
 	</employee>
 	<employee>
-		<username>BarryAllen</username>
-		<password>barry123</password>
-		<firstname>Barry</firstname>
-		<lastname>Allen</lastname>
+		<username>Aditya Sharma</username>
+		<password>Adi123</password>
+		<firstname>Aditya</firstname>
+		<lastname>sharma</lastname>
 		<gender>Male</gender>
-		<email>barryallen@gmail.com</email>
+		<email>aditya.sharma@example.com</email>
 		<position>Frontend Developer</position>
 		<salary>7.5lpa</salary>
 		<contact>+91 7834918230</contact>
 	</employee>
 	<employee>
-		<username>JohnDoe</username>
-		<password>johndoe123</password>
-		<firstname>John</firstname>
-		<lastname>Doe</lastname>
+		<username>Aryan Gupta</username>
+		<password>aryan123</password>
+		<firstname>Aryan</firstname>
+		<lastname>Gupta</lastname>
 		<gender>Male</gender>
-		<email>johndoe@example.com</email>
+		<email>aryan.gupta@example.com</email>
 		<position>Marketing Manager</position>
 		<salary>12lpa</salary>
 		<contact>+91 9934671209</contact>
 	</employee>
 	<employee>
-		<username>JaneSmith</username>
-		<password>janesmith456</password>
-		<firstname>Jane</firstname>
-		<lastname>Smith</lastname>
-		<gender>Female</gender>
-		<email>janesmith@example.com</email>
+		<username>Vihaan Shah</username>
+		<password>Vihaan123</password>
+		<firstname>vihaan</firstname>
+		<lastname>Shah</lastname>
+		<gender>Male</gender>
+		<email>vihaan.shah@example.com</email>
 		<position>Human Resources Manager</position>
 		<salary>10lpa</salary>
 		<contact>+91 9091293801</contact>
 	</employee>
 	<employee>
-		<username>BobJohnson</username>
-		<password>bob123</password>
-		<firstname>Bob</firstname>
-		<lastname>Johnson</lastname>
+		<username>Advik Patel</username>
+		<password>advik123</password>
+		<firstname>Advik</firstname>
+		<lastname>Patel</lastname>
 		<gender>Male</gender>
-		<email>bob.johnson@example.com</email>
+		<email>patel@example.com</email>
 		<position>Software Engineer</position>
 		<salary>9lpa</salary>
 		<contact>+91 7722012983</contact>
