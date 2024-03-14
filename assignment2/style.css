@@ -1,0 +1,22 @@
+        /* External CSS */
+        .menu {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        .menu th, .menu td {
+            padding: 10px;
+            text-align: left;
+        }
+        
+        .menu th {
+            background-color: #f2f2f2;
+        }
+        
+        .menu tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        .menu tr:hover {
+            background-color: #ddd;
+        }

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Restaurant Website</title>
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* CSS for the navigation bar */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333; /* Change background color as needed */
+        }
+
+        li {
+            float: left; /* Float the list items to arrange them horizontally */
+        }
+
+        li a {
+            display: block;
+            color: white; /* Text color for navigation links */
+            text-align: center;
+            padding: 14px 16px; /* Padding around the links */
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111; /* Change background color on hover */
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Our Restaurant</h1>
+        </header>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a cozy restaurant serving delicious meals made from locally sourced ingredients.</p>
+            <img class="center" src="/ass2/cozy.jfif" alt="Restaurant Image" width="500">
+        </section>
+        
+        <section id="menu">
+            <h2>Menu</h2>
+            <table class="menu">
+                <tr>
+                    <th>Item</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Spaghetti Bolognese</td>
+                    <td>Classic Italian pasta with meat sauce</td>
+                    <td>$10</td>
+                </tr>
+                <tr>
+                    <td>Grilled Salmon</td>
+                    <td>Fresh salmon fillet grilled to perfection</td>
+                    <td>$15</td>
+                </tr>
+                <tr>
+                    <td>Vegetable Stir Fry</td>
+                    <td>Assorted fresh vegetables stir-fried with tofu</td>
+                    <td>$12</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section id="contact"  style="text-align:center;">
+            <h2>Contact Us</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
